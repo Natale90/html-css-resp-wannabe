@@ -1,4 +1,60 @@
-/* BLOCCO LEZIONI */
+/* BLOCCO lezioni tablet */
+@media all and (max-width:800px){
+  .row {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+    margin: auto;
+
+  }
+}
+
+
+
+/* BLOCCO STEPS table */
+@media all and (max-width:800px){
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: calc(45% - 5%);
+    margin: 10px 5%;
+  }
+
+  #steps .row>.left img,
+  #steps .row>.central img,
+  #steps .row>.right img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #steps .row>.right {
+    margin-top: 30px;
+    margin-left: 27.5%;
+    margin-right: 27.5%;
+  }
+
+}
+
+
+/* BLOCCO PERCHE tablet */
+@media all and (max-width:800px){
+  #why h3{
+    margin: 0px 20px;
+    color: red;
+  }
+}
+
+
+
+
+
+/* ------------------------------------------------ */
+/* BLOCCO LEZIONI smartphone */
 
 @media all and (max-width: 420px){
 
@@ -16,8 +72,7 @@
   }
 }
 
-
-/* BLOCCO STEPS */
+/* BLOCCO STEPS smartphone */
 
 @media all and (max-width:420px){
 
@@ -26,13 +81,13 @@
   #steps .row>.right {
     float: none;
     width: 100%;
-    margin: 20px auto;
+    margin: 30px auto;
     border:1px solid black;
   }
 }
 
 
-/* BLOCCO PERCHE */
+/* BLOCCO PERCHE smartphone */
 
 @media all and (max-width:420px){
   #why .row>.first,
